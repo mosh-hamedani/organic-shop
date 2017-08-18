@@ -26,6 +26,7 @@
     "bootstrap": "^4.0.0-beta",
     "core-js": "^2.4.1",
     "firebase": "^4.2.0",
+    "ng2-validation": "^4.2.0",
     "rxjs": "^5.4.1",
     "zone.js": "^0.8.14"
   },
