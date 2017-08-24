@@ -1,5 +1,5 @@
 <h1>Shopping Cart</h1>
-<ng-container *ngIf="cart$ | async as cart">
+<div class="row col-10" *ngIf="cart$ | async as cart">
   <p>
     You have {{ cart.totalItemsCount }} items in your shopping cart. 
   </p>
@@ -7,8 +7,8 @@
     <thead>
       <tr>
         <th>Product</th>
-        <th>Quantity</th>
-        <th>Price</th>
+        <th class="text-center" style="width: 230px">Quantity</th>
+        <th class="text-right" style="width: 200px">Price</th>
       </tr>
     </thead>
     <tbody>
@@ -20,7 +20,7 @@
           <product-quantity [product]="item" [shopping-cart]="cart">
           </product-quantity>
         </td>
-        <td>
+        <td class="text-right">
           {{ item.totalPrice | currency:'USD':true }}
         </td>
       </tr>
@@ -29,11 +29,11 @@
       <tr>
         <th></th>
         <th></th>
-        <th>{{ cart.totalPrice | currency:'USD':true }}</th>
+        <th class="text-right">{{ cart.totalPrice | currency:'USD':true }}</th>
       </tr>
     </tfoot> 
   </table>
   <button 
     (click)="clearCart()"
     class="btn btn-danger btn-sm">Clear Shopping Cart</button>
-</ng-container>
+</div>
