@@ -1,3 +1,4 @@
+import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
@@ -7,7 +8,7 @@ import { CommonModule } from '@angular/common';
 
 @NgModule({
   imports: [
-    CommonModule,
+    SharedModule,
     RouterModule.forChild([])
   ],
   declarations: [

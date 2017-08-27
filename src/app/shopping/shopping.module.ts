@@ -17,8 +17,6 @@ import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.
 @NgModule({
   imports: [
     SharedModule,
-    CommonModule,
-    FormsModule,
     RouterModule.forChild([
       { path: 'products', component: ProductsComponent },
       { path: 'shopping-cart', component: ShoppingCartComponent },
