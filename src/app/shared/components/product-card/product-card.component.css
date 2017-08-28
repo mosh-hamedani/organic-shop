@@ -3,10 +3,16 @@
   margin-bottom: 30px;
 }
 
+.card-img-top { 
+  height: 200px;
+}
+
 .card-footer {
   padding: 0;
+  background: #fff;
 }
 
 .card-footer button {
   cursor: pointer;
+  text-transform: uppercase;
 }
