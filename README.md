@@ -2,7 +2,7 @@
 
 This project demonstrates a simple e-commerce application for an imaginary organic shop. It is built with Angular, Firebase and Bootstrap 4 as the final project in my complete Angular course: 
 
-https://www.udemy.com/the-complete-angular-master-class/?couponCode=GITHUBREPO
+http://programmingwithmosh.com/courses/complete-angular-master-class/
 
 In this course, you'll see how I've built this application, step-by-step.
 
